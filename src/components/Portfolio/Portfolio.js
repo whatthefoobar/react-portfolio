@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from '../../img/img1.jpg';
+// import img1 from '../../img/img1.jpg';
 import p1 from '../../img/p1.jpg';
 import p2 from '../../img/p2.jpg';
 import p3 from '../../img/p3.jpg';
@@ -20,11 +20,11 @@ const Portfolio = () => {
           <h3>Artist portfolio</h3>
           <div className="btns">
             <button className="btn preview">
-              <a href="#">Preview</a>
+              <a href="/">Preview</a>
             </button>
 
             <button className="btn code">
-              <a href="#">Code</a>
+              <a href="/">Code</a>
             </button>
           </div>
         </div>
@@ -34,11 +34,11 @@ const Portfolio = () => {
           <h3>Web development</h3>
           <div className="btns">
             <button className="btn preview">
-              <a href="#">Preview</a>
+              <a href="/">Preview</a>
             </button>
 
             <button className="btn code">
-              <a href="#">Code</a>
+              <a href="/">Code</a>
             </button>
           </div>
         </div>
@@ -48,11 +48,11 @@ const Portfolio = () => {
           <h3>web development</h3>
           <div className="btns">
             <button className="btn preview">
-              <a href="#">Preview</a>
+              <a href="/">Preview</a>
             </button>
 
             <button className="btn code">
-              <a href="#">Code</a>
+              <a href="/">Code</a>
             </button>
           </div>
         </div>
@@ -62,11 +62,11 @@ const Portfolio = () => {
           <h3>Web development</h3>
           <div className="btns">
             <button className="btn preview">
-              <a href="#">Preview</a>
+              <a href="/">Preview</a>
             </button>
 
             <button className="btn code">
-              <a href="#">Code</a>
+              <a href="/">Code</a>
             </button>
           </div>
         </div>
@@ -76,11 +76,11 @@ const Portfolio = () => {
           <h3>Web development</h3>
           <div className="btns">
             <button className="btn preview">
-              <a href="#">Preview</a>
+              <a href="/">Preview</a>
             </button>
 
             <button className="btn code">
-              <a href="#">Code</a>
+              <a href="/">Code</a>
             </button>
           </div>
         </div>
@@ -90,11 +90,11 @@ const Portfolio = () => {
           <h3>Web development</h3>
           <div className="btns">
             <button className="btn preview">
-              <a href="#">Preview</a>
+              <a href="/">Preview</a>
             </button>
 
             <button className="btn code">
-              <a href="#">Code</a>
+              <a href="/">Code</a>
             </button>
           </div>
         </div>
