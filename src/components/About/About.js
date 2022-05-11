@@ -21,29 +21,65 @@ const About = () => {
         </p>
 
         <div class="bio">
-          <h3 data-aos="zoom-in">
-            <span>Name : </span> Irina Munteanu Bäck
+          <h3 data-aos="zoom-in" className="bio-box">
+            React
           </h3>
-          <h3 data-aos="zoom-in">
-            <span>Email : </span> irina.mntn@gmail.com
+          <h3 data-aos="zoom-in" className="bio-box">
+            React Hooks
           </h3>
-          <h3 data-aos="zoom-in">
-            <span>Address : </span> Stockholm, Sweden
+          <h3 data-aos="zoom-in" className="bio-box">
+            Context Api
           </h3>
-          <h3 data-aos="zoom-in">
-            <span>Phone : </span> 0760554024
+          <h3 data-aos="zoom-in" className="bio-box">
+            Redux
           </h3>
-          <h3 data-aos="zoom-in">
-            <span>Age : </span> 34 years
+          <h3 data-aos="zoom-in" className="bio-box">
+            Node.js
+          </h3>
+          <h3 data-aos="zoom-in" className="bio-box">
+            Express.js
+          </h3>
+          <h3 data-aos="zoom-in" className="bio-box">
+            Git
+          </h3>
+          <h3 data-aos="zoom-in" className="bio-box">
+            Github
+          </h3>
+          <h3 data-aos="zoom-in" className="bio-box">
+            MongoDB
+          </h3>
+          <h3 data-aos="zoom-in" className="bio-box">
+            Mongoose
+          </h3>
+          <h3 data-aos="zoom-in" className="bio-box">
+            Cloud Firestore
+          </h3>
+          <h3 data-aos="zoom-in" className="bio-box">
+            Firebase Auth
+          </h3>
+          <h3 data-aos="zoom-in" className="bio-box">
+            Sass
+          </h3>
+          <h3 data-aos="zoom-in" className="bio-box">
+            Styled Components
+          </h3>
+          <h3 data-aos="zoom-in" className="bio-box">
+            Figma
+          </h3>
+          <h3 data-aos="zoom-in" className="bio-box">
+            Responsive Design
+          </h3>
+          <h3 data-aos="zoom-in" className="bio-box">
+            VSCode
           </h3>
         </div>
 
-        <a href="/" class="btn" alt="download">
+        {/* <a href="/" class="btn" alt="download">
           Download CV
-        </a>
+        </a> */}
       </div>
 
-      <div class="skills" data-aos="fade-up">
+      {/* <div class="skills" data-aos="fade-up">
         <h1 class="heading">
           <span>Skills</span>
         </h1>
@@ -85,7 +121,7 @@ const About = () => {
             </h3>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

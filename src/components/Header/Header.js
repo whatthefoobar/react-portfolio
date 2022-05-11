@@ -1,15 +1,21 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaMailBulk } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { FaCloudMoon } from 'react-icons/fa';
 
 const Header = () => {
   const [sidebar, setSidebar] = useState(false);
+  const [isLight, setIsLight] = useState(true);
+
+  function toggleTheme() {
+    setIsLight(!isLight);
+  }
   return (
     <header class="header active">
-      {/* add a n active class here to toggle */}
+      {/* add an active class here to toggle */}
       {sidebar || <FaBars id="menu-btn" fill="white" />}
       <Link to="/" class="logo ">
         IMB
@@ -31,7 +37,12 @@ const Header = () => {
         <Link to="/contact" className="link">
           Contact
         </Link>
+        <button id="theme-toggler" onClick={toggleTheme}>
+          {isLight ? 'Darkmode' : 'Lightmode'}
+          {/* <FaCloudMoon fill="#000" /> */}
+        </button>
       </nav>
+
       <div class="follow">
         <a href="https://github.com/whatthefoobar">
           <FaGithub fill="#000" className="social-icon" />
@@ -42,11 +53,6 @@ const Header = () => {
         <a href="mailto:irina.mntn@gmail.com">
           <FaMailBulk fill="#000" className="social-icon" />
         </a>
-
-        {/* <a href="#" class="fab fa-github"></a>
-          <a href="#" class="fab fa-linkedin"></a>
-          <a href="#" class="fab fa-instagram"></a> */}
-        {/* get react icons here */}
       </div>
     </header>
   );

@@ -71,15 +71,13 @@ section {
 }
 
 #theme-toggler {
-  position: fixed;
-  font-size: 30px;
-  top: 15px;
-  right: 25px;
-  padding: 15px 20px;
+  font-size: 2.5rem;
+  padding: 1.5rem;
+  margin: 0.5rem;
+  padding: 5px 10px;
   background: var(--secondary-bg-color);
   color: var(--primary-text-color);
   cursor: pointer;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .heading {

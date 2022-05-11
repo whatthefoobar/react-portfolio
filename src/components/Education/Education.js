@@ -30,15 +30,6 @@ const Education = () => {
               assumenda, eaque sequi repellat natus quia.
             </p>
           </div>
-
-          <div class="box" data-aos="fade-right">
-            <span>( 2021 - 2022 )</span>
-            <h3>graphic designer</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-              assumenda, eaque sequi repellat natus quia.
-            </p>
-          </div>
         </div>
 
         <div class="box-container">
@@ -58,15 +49,6 @@ const Education = () => {
           <div class="box" data-aos="fade-left">
             <span>( 2020 - 2021 )</span>
             <h3>back-end developer</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-              assumenda, eaque sequi repellat natus quia.
-            </p>
-          </div>
-
-          <div class="box" data-aos="fade-left">
-            <span>( 2021 - 2022 )</span>
-            <h3>full-stack developer</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat
               assumenda, eaque sequi repellat natus quia.
