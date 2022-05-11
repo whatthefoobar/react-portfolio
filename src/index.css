@@ -57,6 +57,10 @@ body {
   overflow: hidden;
   transition: 0.2s linear !important;
   background-color: var(--main);
+  transition: 0.7s ease;
+}
+.App {
+  transition: 0.7s ease;
 }
 
 .App.active {
@@ -141,6 +145,7 @@ section {
   transition: 0.2s linear !important;
   text-align: center;
   z-index: 1000;
+  transition: 0.7s ease;
 }
 
 .header .logo {
@@ -162,6 +167,7 @@ section {
   font-size: 2.5rem;
   padding: 1.5rem;
   margin: 0.5rem;
+  transition: 0.7s ease;
 }
 
 .header .navbar .link.active,

@@ -6,17 +6,16 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaMailBulk } from 'react-icons/fa';
 import { FaCloudMoon } from 'react-icons/fa';
 
-const Header = () => {
-  const [sidebar, setSidebar] = useState(false);
+const Header = ({ showSidebar, sidebar, setSidebar }) => {
   const [isLight, setIsLight] = useState(true);
 
   function toggleTheme() {
     setIsLight(!isLight);
   }
   return (
-    <header class="header active">
+    <header class={sidebar ? 'header' : 'header active'}>
       {/* add an active class here to toggle */}
-      {sidebar || <FaBars id="menu-btn" fill="white" />}
+      <FaBars id="menu-btn" fill="white" onClick={showSidebar} />
       <Link to="/" class="logo ">
         IMB
       </Link>

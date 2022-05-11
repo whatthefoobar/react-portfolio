@@ -10,14 +10,20 @@ import Contact from './components/Contact/Contact';
 import { useState } from 'react';
 
 function App() {
-  const [sidebar, setSidebar] = useState(true);
+  const [sidebar, setSidebar] = useState(false);
 
-  const showSidebar = () => setSidebar(!sidebar);
+  const showSidebar = () => {
+    setSidebar(!sidebar);
+  };
   //if sidebar then add active class to body and header and toggle the icon of the #menu-btn
   return (
-    <div className={sidebar ? 'App active' : 'App'}>
+    <div className={sidebar ? 'App' : 'App active'}>
       <Router>
-        <Header />
+        <Header
+          showSidebar={showSidebar}
+          sidebar={sidebar}
+          setSidebar={setSidebar}
+        />
         {/* <Navbar /> */}
         <Routes>
           <Route path="/about" element={<About />} />
