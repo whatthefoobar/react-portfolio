@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { FaPhone } from 'react-icons/fa';
+import { FaMailBulk } from 'react-icons/fa';
 import { BsLinkedin } from 'react-icons/bs';
 
 const Contact = () => {
@@ -20,7 +21,7 @@ const Contact = () => {
 
         <div class="box" data-aos="zoom-in">
           <a href="mailto:irina.mntn@gmail.com">
-            <FaPhone className="contact-social" fill="white" />
+            <FaMailBulk className="contact-social" fill="white" />
             <h3>Email</h3>
           </a>
         </div>
