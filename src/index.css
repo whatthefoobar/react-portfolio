@@ -30,6 +30,7 @@
 }
 
 *::selection {
+  /*awsome to change color of text when selected*/
   background-color: var(--contour);
   color: var(--accent);
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import me from '../../img/me.jpg';
 
 const Home = () => {
@@ -15,9 +16,10 @@ const Home = () => {
           I'm an aspiring developer with an infinite curiosity and willingness
           to learn.
         </p>
-        <a data-aos="fade-up" href="#about" class="btn">
+
+        <Link to="/about" class="btn">
           About me
-        </a>
+        </Link>
       </div>
     </section>
   );
