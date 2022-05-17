@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../components/Footer/Footer';
 
 const About = () => {
   return (
@@ -79,49 +80,7 @@ const About = () => {
         </a> */}
       </div>
 
-      {/* <div class="skills" data-aos="fade-up">
-        <h1 class="heading">
-          <span>Skills</span>
-        </h1>
-
-        <div class="progress">
-          <div class="bar" data-aos="fade-left">
-            <h3>
-              <span>HTML</span> <span>95%</span>
-            </h3>
-          </div>
-          <div class="bar" data-aos="fade-right">
-            <h3>
-              <span>CSS</span> <span>80%</span>
-            </h3>
-          </div>
-          <div class="bar" data-aos="fade-left">
-            <h3>
-              <span>JavaScript</span> <span>85%</span>
-            </h3>
-          </div>
-          <div class="bar" data-aos="fade-right">
-            <h3>
-              <span>React</span> <span>70%</span>
-            </h3>
-          </div>
-          <div class="bar" data-aos="fade-left">
-            <h3>
-              <span>Node.js</span> <span>75%</span>
-            </h3>
-          </div>
-          <div class="bar" data-aos="fade-left">
-            <h3>
-              <span>MongoDb</span> <span>80%</span>
-            </h3>
-          </div>
-          <div class="bar" data-aos="fade-left">
-            <h3>
-              <span>Git and Github</span> <span>65%</span>
-            </h3>
-          </div>
-        </div>
-      </div> */}
+      <Footer />
     </section>
   );
 };

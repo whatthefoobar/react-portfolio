@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaMailBulk } from 'react-icons/fa';
-import { FaCloudMoon } from 'react-icons/fa';
+// import { FaCloudMoon } from 'react-icons/fa';
 
 const Header = ({
   showSidebar,
@@ -36,10 +36,9 @@ const Header = ({
         <Link to="/contact" className="link">
           Contact
         </Link>
-        <button id="theme-toggler" onClick={toggleTheme}>
+        {/* <button id="theme-toggler" onClick={toggleTheme}>
           {isLight ? 'Darkmode' : 'Lightmode'}
-          {/* <FaCloudMoon fill="#000" /> */}
-        </button>
+        </button> */}
       </nav>
 
       <div class="follow">

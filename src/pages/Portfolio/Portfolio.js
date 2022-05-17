@@ -1,5 +1,6 @@
 import React from 'react';
 // import img1 from '../../img/img1.jpg';
+import Footer from '../../components/Footer/Footer';
 import p1 from '../../img/p1.jpg';
 import p2 from '../../img/p2.jpg';
 import p3 from '../../img/p3.jpg';
@@ -22,6 +23,48 @@ const Portfolio = () => {
         <div class="box" data-aos="zoom-in">
           <img src={p6} alt="project" />
           <h3>MERN e-commerce app</h3>
+          <div className="btns">
+            <button className="btn preview">
+              <a href="/">Preview</a>
+            </button>
+
+            <button className="btn code">
+              <a href="/">Code</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+          <img src={p9} alt="project" />
+          <h3>LinkedIn Clone</h3>
+          <div className="btns">
+            <button className="btn preview">
+              <a href="/">Preview</a>
+            </button>
+
+            <button className="btn code">
+              <a href="/">Code</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+          <img src={p10} alt="project" />
+          <h3>Gmail Clone</h3>
+          <div className="btns">
+            <button className="btn preview">
+              <a href="/">Preview</a>
+            </button>
+
+            <button className="btn code">
+              <a href="/">Code</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+          <img src={p7} alt="project" />
+          <h3>50 days of Code</h3>
           <div className="btns">
             <button className="btn preview">
               <a href="/">Preview</a>
@@ -104,48 +147,6 @@ const Portfolio = () => {
         </div>
 
         <div class="box" data-aos="zoom-in">
-          <img src={p7} alt="project" />
-          <h3>Web development</h3>
-          <div className="btns">
-            <button className="btn preview">
-              <a href="/">Preview</a>
-            </button>
-
-            <button className="btn code">
-              <a href="/">Code</a>
-            </button>
-          </div>
-        </div>
-
-        <div class="box" data-aos="zoom-in">
-          <img src={p9} alt="project" />
-          <h3>Web development</h3>
-          <div className="btns">
-            <button className="btn preview">
-              <a href="/">Preview</a>
-            </button>
-
-            <button className="btn code">
-              <a href="/">Code</a>
-            </button>
-          </div>
-        </div>
-
-        <div class="box" data-aos="zoom-in">
-          <img src={p10} alt="project" />
-          <h3>Web development</h3>
-          <div className="btns">
-            <button className="btn preview">
-              <a href="/">Preview</a>
-            </button>
-
-            <button className="btn code">
-              <a href="/">Code</a>
-            </button>
-          </div>
-        </div>
-
-        {/* <div class="box" data-aos="zoom-in">
           <img src={p1} alt="" />
           <h3>Artist portfolio</h3>
           <div className="btns">
@@ -157,8 +158,10 @@ const Portfolio = () => {
               <a href="/">Code</a>
             </button>
           </div>
-        </div> */}
+        </div>
       </div>
+
+      <Footer />
     </section>
   );
 };
