@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { FaMailBulk } from 'react-icons/fa';
 import { BsLinkedin } from 'react-icons/bs';
-import Footer from '../../components/Footer/Footer';
+// import Footer from '../../components/Footer/Footer';
 
 const Contact = () => {
   return (
@@ -42,7 +42,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </section>
   );
 };
