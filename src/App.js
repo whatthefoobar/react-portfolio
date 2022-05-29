@@ -8,7 +8,7 @@ import Contact from './pages/Contact/Contact';
 import { useState } from 'react';
 
 function App() {
-  const [sidebar, setSidebar] = useState(false);
+  const [sidebar, setSidebar] = useState(true);
   const [isLight, setIsLight] = useState(true);
   function toggleTheme() {
     setIsLight(!isLight);
