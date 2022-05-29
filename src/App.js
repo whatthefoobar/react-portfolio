@@ -1,10 +1,8 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
-// import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
-import Education from './pages/Education/Education';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Contact from './pages/Contact/Contact';
 import { useState } from 'react';
@@ -36,7 +34,6 @@ function App() {
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          {/* <Route path="/education" element={<Education />} /> */}
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/" element={<Home />} />
         </Routes>
