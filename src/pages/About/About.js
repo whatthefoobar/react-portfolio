@@ -4,12 +4,12 @@ import React from 'react';
 const About = () => {
   return (
     <section class="about" id="about">
-      <h1 class="heading" data-aos="fade-up">
+      <h1 class="heading">
         <span>About me</span>
       </h1>
 
       <div class="biography">
-        <p data-aos="fade-up">
+        <p>
           “A jack of all trades is a master of none, but oftentimes better than
           a master of one.” I like this saying because it best describes my
           approach to learning. Often a cliché, I do consider myself a life-time
@@ -22,65 +22,30 @@ const About = () => {
         </p>
 
         <div class="bio">
-          <h3 data-aos="zoom-in" className="bio-box">
-            React
-          </h3>
-          <h3 data-aos="zoom-in" className="bio-box">
-            React Hooks
-          </h3>
-          <h3 data-aos="zoom-in" className="bio-box">
-            Context Api
-          </h3>
-          <h3 data-aos="zoom-in" className="bio-box">
-            Redux
-          </h3>
-          <h3 data-aos="zoom-in" className="bio-box">
-            Node.js
-          </h3>
-          <h3 data-aos="zoom-in" className="bio-box">
-            Express.js
-          </h3>
-          <h3 data-aos="zoom-in" className="bio-box">
-            Git
-          </h3>
-          <h3 data-aos="zoom-in" className="bio-box">
-            Github
-          </h3>
-          <h3 data-aos="zoom-in" className="bio-box">
-            MongoDB
-          </h3>
-          <h3 data-aos="zoom-in" className="bio-box">
-            Mongoose
-          </h3>
-          <h3 data-aos="zoom-in" className="bio-box">
-            Cloud Firestore
-          </h3>
-          <h3 data-aos="zoom-in" className="bio-box">
-            Firebase Auth
-          </h3>
-          <h3 data-aos="zoom-in" className="bio-box">
-            Sass
-          </h3>
-          <h3 data-aos="zoom-in" className="bio-box">
-            Styled Components
-          </h3>
-          <h3 data-aos="zoom-in" className="bio-box">
-            Figma
-          </h3>
-          <h3 data-aos="zoom-in" className="bio-box">
-            Responsive Design
-          </h3>
-          <h3 data-aos="zoom-in" className="bio-box">
-            VSCode
-          </h3>
+          <h2 className="bio-subtitle">Tech package:</h2>
+          <h3>React</h3>
+          <h3 className="bio-box">React Hooks</h3>
+          <h3 className="bio-box">Context Api</h3>
+          <h3 className="bio-box">Redux</h3>
+          <h3 className="bio-box">Node.js</h3>
+          <h3 className="bio-box">Express.js</h3>
+          <h3 className="bio-box">Git</h3>
+          <h3 className="bio-box">Github</h3>
+          <h3 className="bio-box">MongoDB</h3>
+          <h3 className="bio-box">Mongoose</h3>
+          <h3 className="bio-box">Cloud Firestore</h3>
+          <h3 className="bio-box">Firebase Auth</h3>
+          <h3 className="bio-box">Sass</h3>
+          <h3 className="bio-box">Styled Components</h3>
+          <h3 className="bio-box">Figma</h3>
+          <h3 className="bio-box">Responsive Design</h3>
+          <h3 className="bio-box">VSCode</h3>
         </div>
 
         {/* <a href="/" class="btn" alt="download">
           Download CV
         </a> */}
       </div>
-
-      {/* <Footer /> */}
     </section>
   );
 };

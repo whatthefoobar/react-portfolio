@@ -262,6 +262,16 @@ section {
 .about .biography .bio {
   margin: 1rem 0;
 }
+.bio .bio-subtitle {
+  margin: 0 auto;
+  font-size: 2.5rem;
+  width: 250px;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: var(--border-light);
+
+  text-align: center;
+}
 
 .about .biography .bio h3 {
   padding: 1rem 2rem;
@@ -315,35 +325,13 @@ section {
 }
 
 /*Contact page*/
-.contact form {
-  max-width: 70rem;
-  margin: 0 auto;
+.contact {
+  margin: 12vh auto;
 }
-
-.contact form .box {
-  width: 100%;
-  padding: 1.4rem;
-  font-size: 2rem;
-  text-transform: none;
-  border: var(--border-light);
-  margin: 1rem 0;
+.contact-text {
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
-
-.contact form textarea {
-  height: 20rem;
-  resize: none;
-}
-
-.contact form .flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.contact form .flex .box {
-  width: 49%;
-}
-
 .contact .box-container {
   margin-bottom: 12rem;
   display: grid;

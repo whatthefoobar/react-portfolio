@@ -1,6 +1,5 @@
 import React from 'react';
-// import img1 from '../../img/img1.jpg';
-import Footer from '../../components/Footer/Footer';
+// import Footer from '../../components/Footer/Footer';
 import p1 from '../../img/p1.jpg';
 import p2 from '../../img/p2.jpg';
 import p3 from '../../img/p3.jpg';
@@ -15,7 +14,7 @@ import p10 from '../../img/p10.PNG';
 const Portfolio = () => {
   return (
     <section class="portfolio" id="portfolio">
-      <h1 class="heading" data-aos="fade-up">
+      <h1 class="heading">
         <span>portfolio</span>
       </h1>
 
@@ -161,7 +160,7 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </section>
   );
 };
