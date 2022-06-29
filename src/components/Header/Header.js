@@ -4,6 +4,7 @@ import { FaBars } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaMailBulk } from 'react-icons/fa';
+import './Header.css';
 // import { FaCloudMoon } from 'react-icons/fa';
 
 const Header = ({
@@ -17,7 +18,7 @@ const Header = ({
   return (
     <header class={sidebar ? 'header' : 'header active'}>
       {/* add an active class here to toggle */}
-      <FaBars id="menu-btn" fill="white" onClick={showSidebar} />
+      <FaBars id="menu-btn" onClick={showSidebar} />
       <Link to="/" class="logo ">
         IMB
       </Link>

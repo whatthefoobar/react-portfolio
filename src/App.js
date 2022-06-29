@@ -30,7 +30,6 @@ function App() {
           setIsLight={setIsLight}
           toggleTheme={toggleTheme}
         />
-        {/* <Navbar /> */}
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
