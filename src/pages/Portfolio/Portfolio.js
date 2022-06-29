@@ -19,7 +19,7 @@ const Portfolio = () => {
       </h1>
 
       <div class="box-container">
-        <div class="box" data-aos="zoom-in">
+        <div class="box">
           <img src={p6} alt="project" />
           <h3>MERN e-commerce app</h3>
           <div className="btns">
@@ -33,7 +33,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div class="box" data-aos="zoom-in">
+        <div class="box">
           <img src={p9} alt="project" />
           <h3>LinkedIn Clone</h3>
           <div className="btns">
@@ -47,7 +47,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div class="box" data-aos="zoom-in">
+        <div class="box">
           <img src={p10} alt="project" />
           <h3>Gmail Clone</h3>
           <div className="btns">
@@ -61,7 +61,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div class="box" data-aos="zoom-in">
+        <div class="box">
           <img src={p7} alt="project" />
           <h3>50 days of Code</h3>
           <div className="btns">
@@ -75,7 +75,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div class="box" data-aos="zoom-in">
+        <div class="box">
           <img src={p3} alt="project" />
           <h3>React news app</h3>
           <div className="btns">
@@ -89,7 +89,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div class="box" data-aos="zoom-in">
+        <div class="box">
           <img src={p8} alt="project" />
           <h3>Killer quiz</h3>
           <div className="btns">
@@ -103,7 +103,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div class="box" data-aos="zoom-in">
+        <div class="box">
           <img src={p4} alt="project" />
           <h3>Phaser RPG Game</h3>
           <div className="btns">
@@ -117,7 +117,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div class="box" data-aos="zoom-in">
+        <div class="box">
           <img src={p2} alt="" />
           <h3>Killer Zodiac app</h3>
           <div className="btns">
@@ -131,7 +131,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div class="box" data-aos="zoom-in">
+        <div class="box">
           <img src={p5} alt="project" />
           <h3>Movie app</h3>
           <div className="btns">
@@ -145,7 +145,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div class="box" data-aos="zoom-in">
+        <div class="box">
           <img src={p1} alt="" />
           <h3>Artist portfolio</h3>
           <div className="btns">
@@ -159,8 +159,6 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-
-      {/* <Footer /> */}
     </section>
   );
 };
